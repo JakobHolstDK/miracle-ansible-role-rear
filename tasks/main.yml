@@ -1,8 +1,6 @@
 - name: "main| setup the backup destination host"
   include_tasks: backup_destination_server.yml
-  when: "{{ BACKUP_HOST }} == {{ inventory_hostname}} "
-
-
+  when: BACKUP_HOST  ==  inventory_hostname
 
 - name: "main| prepare rear service"
   include_tasks: prepare.yml

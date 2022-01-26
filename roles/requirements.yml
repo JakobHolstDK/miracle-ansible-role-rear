@@ -1,6 +1,6 @@
 ---
 roles:
-  - src: git@github.com:JakobHolstDK/JakobHolstDK/miracle-ansible-role-rear.git
+  - src: git@github.com:JakobHolstDK/miracle_ansible_role_rear.git
     scm: git
     version: "master"
 

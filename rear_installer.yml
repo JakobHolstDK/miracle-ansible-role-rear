@@ -2,7 +2,7 @@
 - name: "Install and setup rear system backups"
   hosts: all
   roles:
-    - role: miracle-ansible-role-rear
+    - role: miracle_ansible_role_rear
       name: "rear"
 
 
