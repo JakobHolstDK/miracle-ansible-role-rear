@@ -1,7 +1,7 @@
 ---
 - name: install_openstack |Install the latest version of rear
   dnf:
-    name:  rear genisoimage syslinux
+    name:  rear,genisoimage,syslinux,grub2-efi-x64-modules
     state: latest
   become: True
 
