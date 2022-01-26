@@ -6,6 +6,6 @@
   include_tasks: prepare.yml
 
 - name: "main | setup rear"
-  include_tasks: install_openstack.yml
+  include_tasks: setup_rear.yml
 
 
