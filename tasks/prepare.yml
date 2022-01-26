@@ -1,7 +1,7 @@
 ---
-- name: install_openstack |Install the latest version of python3-tripleoclient
+- name: install_openstack |Install the latest version of rear
   dnf:
-    name: python3-tripleoclient
+    name:  rear genisoimage syslinux
     state: latest
   become: True
 
