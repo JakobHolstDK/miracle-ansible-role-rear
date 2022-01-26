@@ -1,6 +1,4 @@
 ---
-- name: install_openstack |Install the latest version of python3-tripleoclient
-  dnf:
-    name: python3-tripleoclient
-    state: latest
+- name: setup_rear | create config file
+  template:
   become: True

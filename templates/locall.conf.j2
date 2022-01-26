@@ -1,0 +1,6 @@
+OUTPUT={{ OUTPUT }}
+OUTPUT_URL={{ OUTPUT_URL }}
+BACKUP={{ BACKUP }}
+BACKUP_URL={{ BACKUP_URL}}
+BACKUP_PROG_EXCLUDE=( ${BACKUP_PROG_EXCLUDE[@]} '/backup*' '/var/lib/rear/*' '/dev/vx/*' '/dev/dmpconfig/*' '/dev/dmpconfig' '/dev/vx/dmpconfig' '/dev/network_latency*' '/dev/mapper' '/dev/fd' '/tmp' '/var' '/usr' '/boot' '/etc' '/mnt' '/root' '/run' '/srv' '/usr' '/sys' '/opt' '/dev' '/home' , '/mnt/backup-server')
+COPY_AS_IS_EXCLUDE=( ${COPY_AS_IS_EXCLUDE[@]} '/var/lib/kvm/images/*' '/dev/vx/*' '/dev/dmpconfig/*' '/dev/dmpconfig' '/dev/vx/dmpconfig' '/dev/fb0' '/dev/mapper' '/dev/network_throughput' '/dev/tty*' )
