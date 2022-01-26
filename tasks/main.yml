@@ -1,0 +1,13 @@
+- name: "main| setup the backup destination host"
+  include_tasks: backup_destination_server.yml
+  when: "{{ BACKUP_HOST }} == {{ inventory_hostname}} "
+
+
+
+- name: "main| prepare rear service"
+  include_tasks: prepare.yml
+
+- name: "main | setup rear"
+  include_tasks: install_openstack.yml
+
+

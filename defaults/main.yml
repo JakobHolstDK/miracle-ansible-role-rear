@@ -1,0 +1,9 @@
+---
+OS_VENDOR: "RedHatEnterpriseServer"
+OS_VERSION: 8
+OUTPUT: ISO
+OUTPUT_URL: ""
+BACKUP: "NETFS"
+BACKUP_URL: ""
+BACKUP_HOST: "backupserver"
+
