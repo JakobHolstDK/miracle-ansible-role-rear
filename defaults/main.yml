@@ -5,5 +5,5 @@ OUTPUT: ISO
 OUTPUT_URL: ""
 BACKUP: "NETFS"
 BACKUP_URL: ""
-BACKUP_HOST: "backupserver"
+BACKUP_HOST: "gecdir06"
 
